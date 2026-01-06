@@ -1,9 +1,9 @@
-🧠 ChatGPT-2 (From Scratch in Python)
+**🧠 ChatGPT-2 (From Scratch in Python)**
 
 A minimal yet powerful Transformer-based language model built entirely from scratch using pure Python.
 This project demonstrates the core architecture behind modern LLMs like GPT—without using deep learning frameworks such as PyTorch or TensorFlow.
 
-🚀 Project Overview
+**🚀 Project Overview**
 
 This project is an educational implementation of a GPT-style language model, designed to deeply understand:
 
@@ -19,7 +19,7 @@ Token-based text generation
 
 The model is trained to predict the next token in a sequence, enabling basic text generation similar to early GPT models.
 
-🏗️ Architecture
+**🏗️ Architecture**
 
 The model follows the classic Decoder-only Transformer architecture:
 
@@ -70,7 +70,7 @@ Linear projection from embeddings to vocabulary size
 
 Softmax-based probability distribution
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Language: Python
 
@@ -82,7 +82,7 @@ math (scaling & stability)
 
 No frameworks used (No PyTorch / TensorFlow)
 
-📁 Project Structure
+**📁 Project Structure**
 chatgpt2-from-scratch/
 │
 ├── tokenizer.py        # Tokenization logic
@@ -95,7 +95,7 @@ chatgpt2-from-scratch/
 ├── generate.py         # Text generation
 └── README.md
 
-⚙️ How It Works
+**⚙️ How It Works**
 
 Text is tokenized into integer IDs
 
@@ -107,14 +107,14 @@ Model predicts the probability of the next token
 
 Tokens are sampled iteratively to generate text
 
-▶️ Usage
+**▶️ Usage**
 Train the Model
 python train.py
 
 Generate Text
 python generate.py
 
-🎯 Learning Objectives
+**🎯 Learning Objectives**
 
 This project helped achieve:
 
@@ -126,7 +126,7 @@ Clarity on how LLMs work without abstractions
 
 Confidence to build models beyond frameworks
 
-⚠️ Limitations
+**⚠️ Limitations**
 
 Not optimized for large-scale training
 
@@ -134,7 +134,7 @@ Slower compared to GPU-based frameworks
 
 Intended for learning & experimentation, not production
 
-🌱 Future Improvements
+**🌱 Future Improvements**
 
 Byte Pair Encoding (BPE) tokenizer
 
@@ -146,6 +146,6 @@ Mini-batch training
 
 GPU acceleration support
 
-🧑‍💻 Author
+**🧑‍💻 Author**
 
 Built with passion for deep learning fundamentals and LLM architecture exploration.
